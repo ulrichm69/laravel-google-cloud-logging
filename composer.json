@@ -1,5 +1,5 @@
 {
-    "name": "superchairon/laravel-google-cloud-logging",
+    "name": "debtia/laravel-google-cloud-logging",
     "description": "A Google Cloud Logging system for Laravel",
     "type": "library",
     "require": {
@@ -9,13 +9,13 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Jorge Rodriguez",
-            "email": "trillo@hotmail.com"
+            "name": "Mikkel Wulff Köhler",
+            "email": "mwk@hornskovvindberg.dk"
         }
     ],
     "autoload": {
         "psr-4": {
-            "Superchairon\\LaravelGoogleCloudLogging\\": "src/"
+            "Debtia\\LaravelGoogleCloudLogging\\": "src/"
         }
     }
 }

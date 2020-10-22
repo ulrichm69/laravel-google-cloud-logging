@@ -11,7 +11,7 @@ This package is a driver for logging and error reporting for Google Cloud Platfo
 ## Installation
 
 ```bash
-composer require superchairon/laravel-google-cloud-logging
+composer require debtia/laravel-google-cloud-logging
 ```
 
 Add a new driver in your `logging.php` config
@@ -19,7 +19,7 @@ Add a new driver in your `logging.php` config
 ```php
         'stackdriver' => [
             'driver' => 'custom',
-            'via' => \SuperChairon\LaravelGoogleCloudLogging\StackdriverDriver::class,
+            'via' => \Debtia\LaravelGoogleCloudLogging\StackdriverDriver::class,
             'logName' => 'my-application-log',
             'labels' => [
                 'application' => env('APP_NAME'),
