@@ -20,14 +20,39 @@ Add a new driver in your `logging.php` config
         'stackdriver' => [
             'driver' => 'custom',
             'via' => \Debtia\LaravelGoogleCloudLogging\StackdriverDriver::class,
-            'logName' => 'my-application-log',
+            'logName' => 'laravel.log',
             'labels' => [
                 'application' => env('APP_NAME'),
                 'environment' => env('APP_ENV'),
-                'other labels' => '...',
+                'logchannelname' => 'stackdriver',
             ],
             'level' => 'debug',
         ]
+```
+
+In the Log Explorer, you will se this payload
+```json
+{
+  insertId: "1fwd45fghmtpq"
+  jsonPayload: {
+    message: "Small fish is a healthy snack for sharks"
+  },
+  resource: {
+    type: "global",
+    labels: {
+      project_id: "house-chimney-893111"
+    }
+  },
+  timestamp: "2020-10-23T07:26:27.685740Z",
+  severity: "DEBUG",
+  labels: {
+    application: "MaintainHouse",
+    environment: "suburb",
+    logchannelname: "stackdriver"
+  },
+  logName: "projects/house-chimney-893111/logs/laravel.log",
+  receiveTimestamp: "2020-10-23T07:26:28.005469561Z"
+}
 ```
 
 ### Authentication
