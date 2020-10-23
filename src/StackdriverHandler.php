@@ -42,7 +42,7 @@ class StackdriverHandler extends AbstractProcessingHandler
      * @param  array $record
      * @return void
      */
-    protected function write(array $record)
+    protected function write(array $record): void
     {
         // set options, according to Google Stackdirver API documentation
         $options = [
