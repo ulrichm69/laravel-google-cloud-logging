@@ -33,7 +33,7 @@ Add a new driver in your `logging.php` config
 In the Log Explorer, you will se this payload
 ```json
 {
-  insertId: "1fwd45fghmtpq"
+  insertId: "1fwd45fghmtpq",
   jsonPayload: {
     message: "Small fish is a healthy snack for sharks"
   },
