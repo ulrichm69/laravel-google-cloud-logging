@@ -45,7 +45,8 @@ While running on **Google Cloud Platform** environments such as **Google Compute
 For more information visit the [Authentication documentation for the Google Cloud Client Library for PHP](https://github.com/googleapis/google-cloud-php/blob/master/AUTHENTICATION.md) 
 
 ### Create a bucket [GOOGLE_CLOUD_PROJECT]
-```gsutil mb gs://[GOOGLE_CLOUD_PROJECT]
+```bash
+gsutil mb gs://[GOOGLE_CLOUD_PROJECT]
 ```
 
 In Storage browser, click on the three dots to the right of [GOOGLE_CLOUD_PROJECT] and select Edit Bucket Permissions - Add member
