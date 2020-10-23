@@ -30,12 +30,12 @@ Add a new driver in your `logging.php` config
         ]
 ```
 
-In the Log Explorer, you will se this payload
-```json
+In the Log Explorer, you will se this payload if you ar into Sharknado
+```javascript
 {
   insertId: "1fwd45fghmtpq",
   jsonPayload: {
-    message: "Small fish is a healthy snack for sharks"
+    message: "Very big fish blocks chimney"
   },
   resource: {
     type: "global",
