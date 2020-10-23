@@ -43,3 +43,10 @@ If the `GOOGLE_CLOUD_PROJECT` and `GOOGLE_APPLICATION_CREDENTIALS` env vars are 
 While running on **Google Cloud Platform** environments such as **Google Compute Engine**, **Google App Engine** and **Google Kubernetes Engine**, no extra work is needed. The Project ID and Credentials and are discovered automatically. Code should be written as if already authenticated.
 
 For more information visit the [Authentication documentation for the Google Cloud Client Library for PHP](https://github.com/googleapis/google-cloud-php/blob/master/AUTHENTICATION.md) 
+
+### Create a bucket [GOOGLE_CLOUD_PROJECT]
+```gsutil mb gs://[GOOGLE_CLOUD_PROJECT]
+```
+
+In Storage browser, click on the three dots to the right of [GOOGLE_CLOUD_PROJECT] and select Edit Bucket Permissions - Add member
+Add cloud-logs@google.com as an owner to the bucket.
