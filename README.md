@@ -30,6 +30,10 @@ Add a new driver in your `logging.php` config
         ]
 ```
 
+and set the env value
+```php
+LOG_CHANNEL=stackdriver
+```
 In the Log Explorer, under Severity - Debug, you will se this kind of payload (if you are into Sharknado)
 ```javascript
 {
