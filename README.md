@@ -2,10 +2,6 @@
 
 A Google Cloud Storage filesystem for Laravel.
 
-[![Latest Stable Version](https://poser.pugx.org/superchairon/laravel-google-cloud-logging/v/stable)](https://packagist.org/packages/superchairon/laravel-google-cloud-logging)
-[![License](https://poser.pugx.org/superchairon/laravel-google-cloud-logging/license)](https://packagist.org/packages/superchairon/laravel-google-cloud-logging)
-[![Total Downloads](https://poser.pugx.org/superchairon/laravel-google-cloud-logging/downloads)](https://packagist.org/packages/superchairon/laravel-google-cloud-logging)
-
 This package is a driver for logging and error reporting for Google Cloud Platform Stackdriver.
 
 ## Installation
