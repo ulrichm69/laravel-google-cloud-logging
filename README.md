@@ -30,7 +30,7 @@ Add a new driver in your `logging.php` config
         ]
 ```
 
-In the Log Explorer, you will se this payload if you ar into Sharknado
+In the Log Explorer, under Severity - Debug, you will se this kind of payload (if you are into Sharknado)
 ```javascript
 {
   insertId: "1fwd45fghmtpq",
@@ -40,7 +40,7 @@ In the Log Explorer, you will se this payload if you ar into Sharknado
   resource: {
     type: "global",
     labels: {
-      project_id: "house-chimney-893111"
+      project_id: "house-cleaning-893111"
     }
   },
   timestamp: "2020-10-23T07:26:27.685740Z",
@@ -50,7 +50,7 @@ In the Log Explorer, you will se this payload if you ar into Sharknado
     environment: "suburb",
     logchannelname: "stackdriver"
   },
-  logName: "projects/house-chimney-893111/logs/laravel.log",
+  logName: "projects/house-cleaning-893111/logs/laravel.log",
   receiveTimestamp: "2020-10-23T07:26:28.005469561Z"
 }
 ```
